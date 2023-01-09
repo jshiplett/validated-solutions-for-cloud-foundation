@@ -1,0 +1,18 @@
+##################################################################################
+# VARIABLES
+##################################################################################
+
+# VCF Credentials
+
+vcf_server   = "<!--REPLACE WITH SDDC MANAGER FQDN-->"
+vcf_admin_username = "<!--REPLACE WITH VCF ADMIN USERNAME-->"
+vcf_admin_password = "<!--REPLACE WITH VCF ADMIN PASSWORD-->"
+
+# VMware Cloud Foundation Role and Account Attributes
+
+vcf_account_name = ""<!--REPLACE WITH ACCOUNT NAME-->""
+vcf_role = "<!--REPLACE WITH SDDC MANAGER ROLE-->"
+vcf_account_domain = "<!--REPLACE WITH ACCOUNT DOMAIN-->"
+vcf_account_type = "<!--REPLACE WITH SDDC MANAGER ACCOUNT TYPE-->"
+"vcf_domain_bind_user = "<!--REPLACE WITH ACTIVE DIRECTORY ACCOUNT NAME-->"
+vcf_domain_bind_password = "<!--REPLACE WITH ACTIVE DIRECTORY ACCOUNT PASSWORD-->"

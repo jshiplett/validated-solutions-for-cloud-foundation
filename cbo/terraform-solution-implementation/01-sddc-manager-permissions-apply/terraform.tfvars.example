@@ -1,0 +1,18 @@
+##################################################################################
+# VARIABLES
+##################################################################################
+
+# VCF Credentials
+
+vcf_server   = "sfo-vcf01.sfo.rainpole.io"
+vsphere_admin_username = "administrator@vsphere.local"
+vsphere_admin_password = "********************"
+
+# VMware Cloud Foundation Role and User/Group Attributes
+
+vcf_account_name = "gg-vropscloud-admins"
+vcf_role = "ADMIN"
+vcf_account_domain = "sfo.rainpole.io"
+vcf_account_type = "GROUP"
+vcf_domain_bind_user = "svc-vsphere-ad"
+vcf_domain_bind_password = "VMware123!"
